@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+.bg {
+  --color-1: rgb(153, 204, 255);
+  --color-2: rgb(255, 102, 255);
+  background: linear-gradient(90deg, var(--color-1), var(--color-2));
+  min-height: 100vh;
+}
+.bgm {
+  --color-1: rgb(153, 204, 255);
+  --color-2: rgb(255, 102, 255);
+  background: linear-gradient(90deg, var(--color-1), var(--color-2));
+}
+
